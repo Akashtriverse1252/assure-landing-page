@@ -247,14 +247,6 @@
 }
 
 @media all and (max-width: 1080px) {
-  .banner_mobile {
-    display: block;
-  }
-
-  .banner_desktop {
-    display: none;
-  }
-
   /* .banner_img_cnt {
         display: none;
     } */
@@ -399,6 +391,13 @@
     font-size: 14px;
   }
 
+  .banner_desktop {
+    display: none;
+  }
+  .banner_mobile {
+    display: block;
+  }
+
   .container {
     padding: 0 10px;
   }
@@ -507,7 +506,7 @@
     content: "";
     width: 95%;
     height: 100%;
-    background: #6d9cd9;
+    background: #e5f6fe;
     position: absolute;
     z-index: 0;
     top: 00;
@@ -531,7 +530,7 @@
   }
 
   .landing_banner_img img {
-    width: 92%;
+    width: 75%;
     z-index: 0;
     padding-left: 2%;
   }

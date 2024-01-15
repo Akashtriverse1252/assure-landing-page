@@ -13,16 +13,14 @@ import feature_icon_01 from "./images/feature01.webp";
 import feature_icon_02 from "./images/feature02.webp";
 import feature_icon_03 from "./images/feature03.webp";
 import feature_icon_04 from "./images/feature04.webp";
-import bannerImage from "./images/Heart_banner_1.webp";
-
-// import { BannerImage } from "./images/SVG/BannerImage";
-import bannerImage_1 from "./images/banner-m.png";
+import bannerImage from "./images/THYROID_Campaign_M2.jpg";
+import bannerImage_1 from "./images/THYROID Campaign.jpg";
 import packsData from "./data/Heart.json";
 import accordionData from "./data/HeartAccordions.json";
 import {
   Accordion,
   AccordionItem,
-  AccordionItemHeading, 
+  AccordionItemHeading,
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
@@ -31,7 +29,7 @@ import Slider from "react-slick";
 export const Heart = () => {
   // Submit API code start
   const [formData, setFormData] = useState({
-    name: "", 
+    name: "",
     mobileNumber: "",
     lp_name: "Thyroid Check-up",
   });
@@ -234,9 +232,8 @@ export const Heart = () => {
       <BannerSection _id="landing_banner" _class="landing_banner Heart_banner">
         <div className="landing_banner_bg">
           <div className="landing_banner_img" id="homeCollectionForm">
-            {/* <img src={bannerImage_1} alt="" className="banner_mobile" /> */}
-            <img src="" alt="" className="" height="700" width="1080" />
-            {/* <BannerImage className="banner_desktop"   /> */}
+            <img src={bannerImage} alt="" className="banner_mobile" />
+            <img src={bannerImage_1} alt="" className="banner_desktop" />
             {/* <div className="banner_img_cnt">
               <p className="text-white">
                 Comprehensive <br /> <span className="text-red-300">Heart</span>{" "}
