@@ -701,6 +701,12 @@
   .banner_img_cnt p:first-child {
     padding: 5px 10px;
   }
+  .accordion__panel p {
+    font-size: 15px;
+  }
+  .faq_cnt ul li {
+    font-size: 14px;
+  }
 }
 
 @media all and (max-width: 480px) {

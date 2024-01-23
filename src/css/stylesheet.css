@@ -8,7 +8,7 @@
 }
 
 .social_connct a,
-.float_btn, 
+.float_btn,
 .float_btn a,
 .pathlab_cnt,
 .pathlab_feature span,
@@ -321,6 +321,7 @@
 .package_card_price p::before {
   content: "\20B9";
   font-size: inherit;
+  font-family: "AvertaStd";
 }
 
 .no__discount {
@@ -439,8 +440,8 @@
   letter-spacing: 0.7px;
   font-weight: 300;
 }
-.landing_banner::before{
-    content: none;
+.landing_banner::before {
+  content: none;
 }
 
 .accordion__button:hover {
@@ -1083,4 +1084,12 @@ input.error-input {
 /* Styling for active (open) accordion panels */
 .accordion__panel.active {
   max-height: 1000px; /* Adjust the value according to your content height */
+}
+
+.accordion__panel p {
+  font-size: 16px;
+}
+
+.faq_cnt ul li {
+  font-size: 15px;
 }

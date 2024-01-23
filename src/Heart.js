@@ -14,7 +14,7 @@ import feature_icon_02 from "./images/feature02.webp";
 import feature_icon_03 from "./images/feature03.webp";
 import feature_icon_04 from "./images/feature04.webp";
 import bannerImage from "./images/THYROID_Campaign_M2.jpg";
-import bannerImage_1 from "./images/THYROID Campaign.jpg";
+import bannerImage_1 from "./images/Thyroid Campaign.jpg";
 import packsData from "./data/Heart.json";
 import accordionData from "./data/HeartAccordions.json";
 import {
@@ -87,7 +87,7 @@ export const Heart = () => {
     if (validateForm()) {
       setIsSubmitting(true);
 
-      console.log("Form data:", formData);
+      // console.log("Form data:", formData);
 
       fetch("https://www.assurepathlabs.com/api/submit_form.php", {
         method: "POST",
@@ -305,7 +305,7 @@ export const Heart = () => {
               <div className="social_connct">
                 <a
                   onclick={handleWhatsAppButtonClick}
-                  href="https://api.whatsapp.com/send/?phone=%2B919716664040&text=Hello%21+assurepathlabs.com%2C+I+am+looking+for+Health+Packages.&type=phone_number&app_absent=0"
+                  href="https://wa.me/+919716664040?text=Hi I am looking for health packages at %20assurepathlabs.com could you help me with those details?"
                 >
                   <img src={Whatsapp} alt="" />
                   <span>Whatsapp</span>
