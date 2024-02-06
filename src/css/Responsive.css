@@ -707,6 +707,10 @@
   .faq_cnt ul li {
     font-size: 14px;
   }
+  .logo svg {
+    width: 95%;
+    height: fit-content;
+  }
 }
 
 @media all and (max-width: 480px) {
@@ -775,6 +779,9 @@
   }
   .banner_img_cnt p:nth-child(3) span:before {
     top: 30%;
+  }
+  .logo svg {
+    width: 100%;
   }
 }
 

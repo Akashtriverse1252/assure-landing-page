@@ -6,7 +6,8 @@ import BannerSection from "./components/BannerSection";
 import Footer from "./components/Footer";
 import { index as Packs } from "./components/Packs/index";
 import ContactBtn from "./components/ContactBtn";
-import Logo from "./images/Logo.webp";
+import {Logo} from "./components/Svg-compoent/Logo";
+// import Logo from "./images/SVG/Assure Logo.svg";
 import Call from "./images/call icon.png";
 import Whatsapp from "./images/whatsapp-2.webp";
 import feature_icon_01 from "./images/feature01.webp";
@@ -209,7 +210,8 @@ export const Heart = () => {
               <div className="header_cnt">
                 <div className="logo">
                   <a href="#">
-                    <img src={Logo} alt="Assure-path-lab-logo " />
+                    {/* <img src={Logo} alt="Assure-path-lab-logo " /> */}
+                    <Logo/>
                   </a>
                 </div>
                 <a href="tel:01814667555" onclick={handlePhoneNumberClick}>

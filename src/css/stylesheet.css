@@ -1093,3 +1093,12 @@ input.error-input {
 .faq_cnt ul li {
   font-size: 15px;
 }
+.logo{
+  width: 250px ;
+  height: auto;
+}
+.logo svg{
+  width: 85%;
+  height: fit-content;
+
+}
